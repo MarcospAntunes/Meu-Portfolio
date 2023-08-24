@@ -143,11 +143,11 @@
     .white .nav-list a { color: white; }
 
     .white .mobile-menu div { background-color: #000000c2; }
-}
 
-.white .arrow{
-    border-width: 0px 7px 7px 0px;
-    padding: 5px;
+    .white .arrow{
+        border-width: 0px 7px 7px 0px;
+        padding: 5px;
+    }
 }
 
 @media screen and (min-height: 675px ) and (max-height: 739px ){.nav-list{  top: 10.8vh; }}
