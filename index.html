@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/mobile.css">
+    <title>Marcos Antunes</title>
+</head>
+<body>
+    <header>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </div>
+        <nav class="nav-list">
+            <a href="#sobreMim">Sobre Mim</a>
+            <a href="#tecnologia">Tecnologias</a>
+            <a href="#projeto">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+          </div>  
+    </header>
+    
+    <hr>
+
+    <main>
+        <section id="apresentacao" data-anime="left">
+            <div>
+                <h1>Olá, sou o <span>Marcos Antunes</span></h1>
+                <p>Desenvolvedor Front-end</p>
+            </div>
+            <div>
+                <img src="" alt="Marcos Antunes">
+                <a href="https://github.com/MarcospAntunes" target="_blank"><img src="assets/icons/GITHUBicon.png" alt="GitHub"  class="icon"></a>
+            </div>
+        </section>
+
+        <section id="sobreMim" data-anime="right">
+            <h1>Sobre Mim</h1>
+            <p>Sou um Desenvolvedor Front-end que que é apaixoando pela área e esá sempre em busca de novos conhecimentos. Atualmente desenvolvo projetos com <span>ReactJs, JavaScript, HTML e CSS.</span></p>
+        </section>
+
+        <section id="tecnologia" data-anime="left">
+            <div>
+                <h1>Tecnologias</h1>
+            </div>
+            <div id="cards_container">
+                <div class="cards">
+                    <img src="assets/icons/STYLEDicon.png" alt="Styled Components" class="icon">
+                    <p>Styled Components</p>
+                    <div class="overlay"><p>Habilidade adquirida realizando o curso da <span>Alura</span> e aplicando em projetos</p></div>
+                </div>
+
+                <div class="cards">
+                    <img src="assets/icons/REACTicon.png" alt="React" class="icon">
+                    <p>React</p>
+                    <div class="overlay"><p>Habilidade adquirida realizando os cursos da <span>Alura</span> e aplicando em projetos</p></div>
+                </div>
+
+                <div class="cards"> 
+                    <img src="assets/icons/JAVASCRIPTicon.png" alt="JavaScript" class="icon">
+                    <p>JavaScript</p>
+                    <div class="overlay"><p>Habilidade adquirida realizando os cursos da <span>Alura</span> e aplicando em projetos</p></div>
+                </div>
+
+                <div class="cards">
+                    <img src="assets/icons/HTMLicon.png" alt="HTML" class="icon">
+                    <p>HTML</p>
+                    <div class="overlay"><p>Habilidade adquirida realizando os cursos do <span>Curso em Vídeo</span> e aplicando em projetos</p></div>
+                </div>
+
+                <div class="cards">
+                    <img src="assets/icons/CSSicon.png" alt="CSS" class="icon">
+                    <p>CSS</p>
+                    <div class="overlay"><p>Habilidade adquirida realizando os cursos do <span>Curso em Vídeo</span> e aplicando em projetos</p></div>
+                </div>
+
+                <div class="cards">
+                    <img src="assets/icons/FIGMAicon.png" alt="Figma" class="icon">
+                    <p>Figma</p>
+                    <div class="overlay"><p>Habilidade adquirida através da <span>prática</span>, onde fui aprendendo enquanto criava o design de minhas páginas</p></div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="projeto" data-anime="right">
+            <h1>Projetos</h1>
+            <div id="projetos_container">
+                <div class="projetos">
+                    <a href="https://marcospantunes.github.io/Site-Conversor/" target="_blank">
+                        <img src="assets/images/site-conversor.png" alt="Site conversor">
+                        <div class="overlay"><p><span>Fast Converter</span> <br> Site feito utilizando <span>HTML, CSS e JavaScript</span>, em que realiza diversos tipos de conversões</p></div>
+                    </a>
+                    
+                </div>
+
+                <div class="projetos">
+                    <a href="https://companhia-aerea.vercel.app/" target="_blank">
+                        <img src="assets/images/mk-airline.png" alt="Mk Airline">
+                        <div class="overlay"><p><span>Landing Page</span> <br> Landing Page criada utilizando <span>ReactJs</span> para uma companhia Aérea</p></div>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <footer id="contato">
+            <h1>Contato</h1>
+            <p>Caso queira entrar em contato comigo, estou disponível nas opções abaixo!</p>
+            
+            <div>
+                <a href="mailto:marcospantunes203@gmail.com" id="teste"><img src="assets/icons/GMAILicon.png" alt="Gmail" class="icon"></a>
+
+                <a href="https://www.linkedin.com/in/marcos-paulo-silva-antunes/" target="_blank"><img src="assets/icons/LINKEDINicon.png" alt="LinkEdin" class="icon"></a>
+            </div>
+        </footer>
+    </main>
+    <div id="btnTop">
+        <i class="arrow up"></i>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
