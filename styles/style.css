@@ -23,7 +23,7 @@ section {
 
 h1 {
   color: white;
-  font-size: 42px; 
+  font-size: 38px; 
 }
 
 span {
@@ -45,7 +45,7 @@ header {
 nav a {
   text-decoration: none;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   color: white;
   padding: 5px;
   border: 1px solid #1292BB;
