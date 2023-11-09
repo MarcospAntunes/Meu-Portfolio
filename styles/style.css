@@ -31,7 +31,7 @@ span {
 }
 
 .icon {
-  width: 72px;
+  width: 64px;
 }
 
 header {
@@ -45,7 +45,7 @@ header {
 nav a {
   text-decoration: none;
   text-align: center;
-  font-size: 32px;
+  font-size: 24px;
   color: white;
   padding: 5px;
   border: 1px solid #1292BB;
@@ -111,6 +111,8 @@ hr {
 #apresentacao {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  margin-top: 250px;
 }
 
 #apresentacao div{
@@ -119,7 +121,7 @@ hr {
 
 #apresentacao p {
   color: rgb(140, 140, 140);
-  font-size: 32px;
+  font-size: 28px;
 }
 
 #myAvatar {
@@ -144,7 +146,7 @@ hr {
 #sobreMim p {
   margin-top: 30px;
   width: 600px;
-  font-size: 32px;
+  font-size: 28px;
   text-align: center;
 }
 
