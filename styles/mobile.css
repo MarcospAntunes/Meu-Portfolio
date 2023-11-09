@@ -107,6 +107,11 @@
         flex-wrap: wrap;
     }
 
+    #myAvatar {
+        width: 300px;
+        margin-top: 20px;
+    }
+
     #sobreMim {
         flex-wrap: wrap;
         text-align: center;

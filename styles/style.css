@@ -23,7 +23,7 @@ section {
 
 h1 {
   color: white;
-  font-size: 38px; 
+  font-size: 54px; 
 }
 
 span {
@@ -31,7 +31,7 @@ span {
 }
 
 .icon {
-  width: 52px;
+  width: 72px;
 }
 
 header {
@@ -45,7 +45,7 @@ header {
 nav a {
   text-decoration: none;
   text-align: center;
-  font-size: 24px;
+  font-size: 32px;
   color: white;
   padding: 5px;
   border: 1px solid #1292BB;
@@ -119,7 +119,18 @@ hr {
 
 #apresentacao p {
   color: rgb(140, 140, 140);
-  font-size: 18px;
+  font-size: 26px;
+}
+
+#myAvatar {
+  border-radius: 50px 500px;
+}
+
+#comunicacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 #sobreMim {
@@ -133,7 +144,7 @@ hr {
 #sobreMim p {
   margin-top: 30px;
   width: 600px;
-  font-size: 28px;
+  font-size: 32px;
   text-align: center;
 }
 
@@ -198,7 +209,7 @@ hr {
 }
 
 #tecnologia p {
-  font-size: 24px;
+  font-size: 28px;
   color: #1292BB;
   width: 120px;
 }
@@ -256,17 +267,17 @@ hr {
 #contato p {
   width: 700px;
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
   margin: 10px;
 }
 
-#contato img {
+.redeSocial {
   border-radius: 10px;
   transition: 0.3s;
 }
 
 
-#contato img:hover {
+.redeSocial:hover {
   border: 1px solid #1292BB;
   transition: 0.3s;
 }
