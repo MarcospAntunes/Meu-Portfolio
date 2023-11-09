@@ -105,6 +105,7 @@
         justify-content: center;
         text-align: center;
         flex-wrap: wrap;
+        margin-top: 250px;
     }
 
     #myAvatar {
@@ -121,11 +122,17 @@
 
     #sobreMim p { width: 100%; }
 
-    .cards { padding: 80px; }
+    #tecnologia { margin-top: 250px; }
+
+    .cards { padding: 80px; margin-top: 20px; }
+
+    #projeto { margin-top: 250px; }
 
     #projeto img { width: 300px; }
 
     footer { width: 100vw; }
+
+    #contato { margin-top: 25px; }
 
     footer p { width: 300px !important; }
 
