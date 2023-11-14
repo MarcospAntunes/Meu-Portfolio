@@ -173,7 +173,7 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 5px;
+  padding: 20px;
   width: 100vw;
 }
 
