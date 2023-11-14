@@ -35,12 +35,23 @@ span {
 }
 
 header {
+  display: block;
+  position: fixed;
+  width: 100vw;
+  background-color: #0F0F0F;
+  z-index: 1000;
+}
+
+#header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
+  width: 100%;
   z-index: 1;
 }
+
+
 
 nav a {
   text-decoration: none;
@@ -309,6 +320,10 @@ hr {
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
+}
+
+.white header {
+  background-color: white;
 }
 
 
