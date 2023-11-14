@@ -3,9 +3,21 @@ const btn = document.querySelector('#btnTop')
 const target = document.querySelectorAll('[data-anime]')
 const animationClass = 'animate'
 
+const mpflix = document.querySelector("#mpflix")
+const techflix = document.querySelector("#techflix")
+
 chk.addEventListener('change', () => {
   document.body.classList.toggle('white')
+  if(chk.checked) {
+    mpflix.src = "assets/images/mpFlix-light.png"
+    techflix.src = "assets/images/techFlix-light.png"
+  } else {
+    mpflix.src = "assets/images/mpFlix-dark.png"
+    techflix.src = "assets/images/techFlix-dark.png"
+  }
 })
+
+
 
 btn.addEventListener('click', () => {
   window.scrollTo(0,0)
