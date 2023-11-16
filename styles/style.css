@@ -21,12 +21,12 @@ section {
   margin-top: 500px;
 }
 
-h1 {
+h1, h2 {
   color: white;
   font-size: 54px; 
 }
 
-span {
+span, h3 {
   color: #1292BB;
 }
 
@@ -204,6 +204,7 @@ hr {
   background-color: #000000b8;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -221,8 +222,9 @@ hr {
   transition: 0.3s;
 }
 
-#tecnologia p {
+#tecnologia h3 {
   font-size: 28px;
+  font-weight: 500;
   color: #1292BB;
   width: 120px;
 }
@@ -340,6 +342,10 @@ hr {
 }
 
 .white h1 {
+  color: black;
+}
+
+.white h2 {
   color: black;
 }
 

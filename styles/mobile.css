@@ -29,7 +29,7 @@
         width: 42px;
     }
 
-    h1{ font-size: 24px !important; 
+    h1, h2{ font-size: 24px !important; 
     }
 
     p { font-size: 18px !important; }
@@ -162,6 +162,8 @@
     }
 }
 
+@media  screen and (width: 430px) and (height: 932px){ .nav-list{  top: 8.5vh; }}
+
 @media screen and (min-height: 675px ) and (max-height: 739px ){.nav-list{  top: 10.8vh; }}
 
 @media screen and (min-height: 740px ) and (max-height: 800px ){.nav-list{  top: 10vh; }}
@@ -184,7 +186,7 @@
 
     .checkbox:checked + .label .ball { transform: translateX(26px); }
 
-    h1 { font-size: 38px; }
+    h1, h2 { font-size: 38px; }
 
     p { font-size: 30px !important; }
 
