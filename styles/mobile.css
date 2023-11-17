@@ -32,6 +32,10 @@
     h1, h2{ font-size: 24px !important; 
     }
 
+    h3 {
+        font-size: 20px !important;
+      }
+
     p { font-size: 18px !important; }
     .nav-list {
         position: fixed;
