@@ -30,6 +30,10 @@ span, h3 {
   color: #1292BB;
 }
 
+h3 {
+  font-size: 20px !important;
+}
+
 .icon {
   width: 64px;
 }
