@@ -2,9 +2,10 @@ const chk = document.getElementById('chk')
 const btn = document.querySelector('#btnTop')
 const target = document.querySelectorAll('[data-anime]')
 const animationClass = 'animate'
-
+const myAvatar = document.querySelector('#myAvatar')
 const mpflix = document.querySelector("#mpflix")
 const techflix = document.querySelector("#techflix")
+
 
 chk.addEventListener('change', () => {
   document.body.classList.toggle('white')
@@ -17,6 +18,19 @@ chk.addEventListener('change', () => {
   }
 })
 
+const myAvatarLocation = "./assets/images/myAvatar.png"
+const myAvatarLikedLocation = "./assets/images/myAvatarLiked.png"
+
+myAvatar.addEventListener('click', () => {
+  const verify = myAvatar.classList == "myAvatar" ? true : false
+  if(verify) {
+    myAvatar.src = myAvatarLocation
+    myAvatar.classList.replace('myAvatar', 'myAvatarLiked')
+  } else {
+    myAvatar.src = myAvatarLikedLocation
+    myAvatar.classList.replace('myAvatarLiked', 'myAvatar')
+  }
+});
 
 
 btn.addEventListener('click', () => {
