@@ -22,12 +22,11 @@ const myAvatarLocation = "./assets/images/myAvatar.png"
 const myAvatarLikedLocation = "./assets/images/myAvatarLiked.png"
 
 myAvatar.addEventListener('click', () => {
-  const verify = myAvatar.classList == "myAvatar" ? true : false
-  if(verify) {
-    myAvatar.src = myAvatarLocation
+  if(myAvatar.classList == "myAvatar") {
+    myAvatar.src = myAvatarLikedLocation
     myAvatar.classList.replace('myAvatar', 'myAvatarLiked')
   } else {
-    myAvatar.src = myAvatarLikedLocation
+    myAvatar.src = myAvatarLocation
     myAvatar.classList.replace('myAvatarLiked', 'myAvatar')
   }
 });
