@@ -35,7 +35,6 @@ myAvatar.addEventListener('click', () => {
   }
 });
 
-
 btn.addEventListener('click', () => {
   window.scrollTo(0,0)
 })
@@ -83,8 +82,6 @@ if(target.length) {
     animeScroll()
   }, 10 ))
 }
-
-
 
 class MobileNavbar {
   constructor(mobileMenu, navList, navLinks) {

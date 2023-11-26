@@ -178,7 +178,6 @@
 
 @media screen and (min-height: 800px ) and (max-height: 915px ){.nav-list{  top: 8.7vh; }}
 
-
 @media screen and (min-width: 601px) and (max-width: 820px) {
     nav a { font-size: 20px; }
     .label {

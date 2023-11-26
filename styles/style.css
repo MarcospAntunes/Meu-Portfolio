@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +15,6 @@ html, body {
   transition: 0.3s;
 }
 
-
 section {
   margin-top: 500px;
 }
@@ -29,8 +27,6 @@ h1, h2 {
 span, h3 {
   color: #1292BB;
 }
-
-
 
 .icon {
   width: 64px;
@@ -53,8 +49,6 @@ header {
   z-index: 1;
 }
 
-
-
 nav a {
   text-decoration: none;
   text-align: center;
@@ -74,7 +68,6 @@ nav a:hover {
   padding: 5px 10px;
 }
 
-
 .checkbox {
   opacity: 0;
   position: absolute;
@@ -93,9 +86,7 @@ nav a:hover {
   height: 24px;
   width: 50px;
   transform: scale(1.5);
-
 }
-
 
 .label .ball {
   background-color: #fff;
@@ -119,7 +110,6 @@ hr {
   margin-top: 20px;
   border-color: #1292BB;
 }
-
 
 #apresentacao {
   display: flex;
@@ -239,7 +229,6 @@ hr {
   text-align: center;
   cursor: pointer;
   transition: 0.3s;
-  
 }
 
 .cards:hover {
@@ -322,7 +311,6 @@ hr {
   font-size: 28px;
 }
 
-
 #contato {
   display: flex;
   flex-direction: column;
@@ -343,7 +331,6 @@ hr {
   border-radius: 10px;
   transition: 0.3s;
 }
-
 
 .redeSocial:hover {
   border: 1px solid #1292BB;
@@ -380,7 +367,6 @@ hr {
 .white header {
   background-color: white;
 }
-
 
 .white .arrow {
   border: solid rgba(255, 255, 255, 0.898);
@@ -443,4 +429,3 @@ hr {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
-
