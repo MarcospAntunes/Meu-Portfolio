@@ -137,6 +137,37 @@ hr {
   font-size: 28px;
 }
 
+#download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+  padding: 5px;
+
+  width: 150px;
+
+  background-color: #1292bb;
+  color: white;
+  text-decoration: none;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#download:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 1px 1px 5px 1px #1292BB;
+  transition: 0.3s;
+}
+
+#download > img {
+  width: 32px;
+  height: 32px;
+  filter: invert(1);
+  margin-left: 5px;
+}
+
 #myAvatarContainer {
   display: flex;
   flex-direction: column;

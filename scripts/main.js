@@ -5,7 +5,11 @@ const animationClass = 'animate'
 const myAvatar = document.querySelector('#myAvatar')
 const mpflix = document.querySelector("#mpflix")
 const techflix = document.querySelector("#techflix")
+const download = document.querySelector("#download")
 
+download.addEventListener('click', () => {
+  myAvatar.src = "assets/images/myAvatarDownloadedCV.png"
+})
 
 chk.addEventListener('change', () => {
   document.body.classList.toggle('white')
