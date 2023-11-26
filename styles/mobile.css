@@ -112,6 +112,10 @@
         margin-top: 180px;
     }
 
+    #downloadContainer {
+        width: 100% !important;
+    }
+
     #myAvatar {
         width: 300px;
         margin-top: 20px;
@@ -204,5 +208,9 @@
     #apresentacao .icon {
         display: block;
         margin: auto;
+    }
+
+    #downloadContainer {
+        width: 100% !important;
     }
 }

@@ -130,11 +130,20 @@ hr {
 
 #apresentacao div{
   width: 500px;
+  margin-bottom: 10px;
 }
 
 #apresentacao p {
   color: rgb(140, 140, 140);
   font-size: 28px;
+}
+
+#downloadContainer {
+  width: 60% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #download {
