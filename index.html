@@ -9,7 +9,7 @@
   <body>
     <header>
       <h1 id="logo">Marcos Antunes</h1>
-      <nav>
+      <nav id="menu-desktop">
         <div id="redes">
           <a href="https://www.linkedin.com/in/marcos-paulo-silva-antunes/" target="_blank" rel="noopener noreferrer">
             <img src="./assets/icons/linkedin-square-icon.svg" alt="LinkedIn">
@@ -30,6 +30,34 @@
         <a href="#projetos">Projetos</a>
         <a href="#contato">Contato</a>
       </nav>
+      <div>
+        <nav id="menu-mobile">
+          <div id="redes">
+            <a href="https://www.linkedin.com/in/marcos-paulo-silva-antunes/" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/icons/linkedin-square-icon.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/MarcospAntunes" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/icons/github-icon.svg" alt="GitHub">
+            </a>
+            <a href="https://wa.me/5521987741852" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/icons/whatsapp-icon.svg" alt="WhatsApp">
+            </a>
+            <a href="mailto:marcospantunes@gmail.com">
+              <img src="./assets/icons/gmail-icon.svg" alt="Gmail">
+            </a>
+          </div>
+          <span>|</span>
+          <a href="#sobre">Sobre mim</a>
+          <a href="#servicos">Projetos</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#contato">Contato</a>
+      </div>
+
+      <button id="menu-hambuger">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+      </button>
     </header>
     <main>
       <section id="sobre">
@@ -84,6 +112,10 @@
             <div class="hover-text">SASS</div>
           </div>
           <div class="image-container">
+            <img src="./assets/icons/react-native.svg" alt="React Native">
+            <div class="hover-text">React Native</div>
+          </div>
+          <div class="image-container">
             <img src="./assets/icons/c-sharp-programming-language-icon.svg" alt="Csharp">
             <div class="hover-text">Csharp</div>
           </div>
@@ -95,44 +127,45 @@
       </section>
 
       <section id="servicos">
-        <div class="cardServicos">
-          <img src="./assets/icons/front-end.png" alt="Front-end">
-          <h2>Front-end</h2>
-          <p>
-            Criação de interfaces modernas e intuitivas, com foco na experiência do usuário (UX) e design responsivo.
-            Utilizo as melhores práticas e tecnologias atuais para garantir que seu site ou aplicação seja visualmente
-            atraente e funcional em qualquer dispositivo.
-          </p>
-        </div>
+        <h1>Serviços</h1>
 
-        <div class="cardServicos">
-          <img src="./assets/icons/back-end.png" alt="Back-end">
-          <h2>Back-end</h2>
-          <p>
-            Criação de interfaces modernas e intuitivas, com foco na experiência do usuário (UX) e design responsivo.
-            Utilizo as melhores práticas e tecnologias atuais para garantir que seu site ou aplicação seja visualmente
-            atraente e funcional em qualquer dispositivo.
-          </p>
-        </div>
-
-        <div class="cardServicos">
-          <img src="./assets/icons/full-stack-developer-icon.png" alt="Full Stack">
-          <h2>Full Stack</h2>
-          <p>
-            Criação de interfaces modernas e intuitivas, com foco na experiência do usuário (UX) e design responsivo.
-            Utilizo as melhores práticas e tecnologias atuais para garantir que seu site ou aplicação seja visualmente
-            atraente e funcional em qualquer dispositivo.
-          </p>
-        </div>
-
-        <div class="cardServicos">
-          <img src="./assets/icons/game-development-icon.png" alt="Game Development">
-          <h2>Game Development</h2>
-          <p>
-            Transformo ideias criativas em experiências interativas. Desenvolvo jogos envolventes com gráficos
-            impressionantes, mecânicas bem planejadas e performance otimizada, atendendo às expectativas tanto de
-            jogadores quanto de desenvolvedores.
-          </p>
+        <div id="cardContainerServicos">
+          <div class="cardServicos">
+            <img src="./assets/icons/front-end.png" alt="Front-end">
+            <h2>Front-end</h2>
+            <p>
+              Criação de interfaces modernas e intuitivas, com foco na experiência do usuário (UX) e design responsivo.
+              Utilizo as melhores práticas e tecnologias atuais para garantir que seu site ou aplicação seja visualmente
+              atraente e funcional em qualquer dispositivo.
+            </p>
+          </div>
+          <div class="cardServicos">
+            <img src="./assets/icons/back-end.png" alt="Back-end">
+            <h2>Back-end</h2>
+            <p>
+              Criação de interfaces modernas e intuitivas, com foco na experiência do usuário (UX) e design responsivo.
+              Utilizo as melhores práticas e tecnologias atuais para garantir que seu site ou aplicação seja visualmente
+              atraente e funcional em qualquer dispositivo.
+            </p>
+          </div>
+          <div class="cardServicos">
+            <img src="./assets/icons/full-stack-developer-icon.png" alt="Full Stack">
+            <h2>Full Stack</h2>
+            <p>
+              Criação de interfaces modernas e intuitivas, com foco na experiência do usuário (UX) e design responsivo.
+              Utilizo as melhores práticas e tecnologias atuais para garantir que seu site ou aplicação seja visualmente
+              atraente e funcional em qualquer dispositivo.
+            </p>
+          </div>
+          <div class="cardServicos">
+            <img src="./assets/icons/game-development-icon.png" alt="Game Development">
+            <h2>Game Development</h2>
+            <p>
+              Transformo ideias criativas em experiências interativas. Desenvolvo jogos envolventes com gráficos
+              impressionantes, mecânicas bem planejadas e performance otimizada, atendendo às expectativas tanto de
+              jogadores quanto de desenvolvedores.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -146,6 +179,24 @@
               <figcaption>
                 <h3>Studium-nexus</h3>
                 <p>Plataforma de auxílio nos estudos</p>
+                <div id="tecnologias-utilizadas">
+                  <div class="image-container">
+                    <img src="./assets/icons/nextjs-icon.svg" alt="NextJs">
+                    <div class="hover-text">NextJs</div>
+                  </div>
+                  <div class="image-container">
+                    <img src="./assets/icons/typescript-programming-language-icon.svg" alt="Typescript">
+                    <div class="hover-text">Typescript</div>
+                  </div>
+                  <div class="image-container">
+                    <img src="./assets/icons/styled-components-icon.svg" alt="Styled-components">
+                    <div class="hover-text">Styled-components</div>
+                  </div>
+                  <div class="image-container">
+                    <img src="./assets/icons/jest-js-icon.svg" alt="Jest">
+                    <div class="hover-text">Jest</div>
+                  </div>
+                </div>
               </figcaption>
             </figure>
           </a>
@@ -156,6 +207,20 @@
               <figcaption>
                 <h3>Delicius Memory</h3>
                 <p>Plataforma de receitas</p>
+                <div id="tecnologias-utilizadas">
+                  <div class="image-container">
+                    <img src="./assets/icons/html-icon.svg" alt="HTML">
+                    <div class="hover-text">HTML</div>
+                  </div>
+                  <div class="image-container">
+                    <img src="./assets/icons/css-icon.svg" alt="CSS">
+                    <div class="hover-text">CSS</div>
+                  </div>
+                  <div class="image-container">
+                    <img src="./assets/icons/javascript-programming-language-icon.svg" alt="JavaScript">
+                    <div class="hover-text">JavaScript</div>
+                  </div>
+                </div>
               </figcaption>
             </figure>
           </a>
@@ -165,6 +230,20 @@
               <figcaption>
                 <h3>MPFlix</h3>
                 <p>Plataforma de filmes e séries</p>
+                <div id="tecnologias-utilizadas">
+                  <div class="image-container">
+                    <img src="./assets/icons/react-js-icon.svg" alt="ReactJs">
+                    <div class="hover-text">ReactJs</div>
+                  </div>
+                  <div class="image-container">
+                    <img src="./assets/icons/typescript-programming-language-icon.svg" alt="Typescript">
+                    <div class="hover-text">CSS</div>
+                  </div>
+                  <div class="image-container">
+                    <img src="./assets/icons/styled-components-icon.svg" alt="Styled-Components">
+                    <div class="hover-text">Styled-Components</div>
+                  </div>
+                </div>
               </figcaption>
             </figure>
           </a>
@@ -176,6 +255,16 @@
                 <p>
                   Um jogo de terror que está sendo desenvolvido juntamente de uma equipe independente.
                 </p>
+                <div id="tecnologias-utilizadas">
+                  <div class="image-container">
+                    <img src="./assets/icons/c-sharp-programming-language-icon.svg" alt="Csharp">
+                    <div class="hover-text">Csharp</div>
+                  </div>
+                  <div class="image-container">
+                    <img src="./assets/icons/unity-game-engine-icon.svg" alt="Unity">
+                    <div class="hover-text">Unity</div>
+                  </div>
+                </div>
               </figcaption>
             </figure>
           </a>
