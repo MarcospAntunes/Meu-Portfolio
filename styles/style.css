@@ -214,6 +214,17 @@ main {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  width: 500px;
+  border-radius: 10PX;
+  padding: 50px;
+  box-shadow: 2px 2px 2px 2px darkgray;
+  transition: .5s;
+}
+
+.cardServicos:hover {
+  transform: translate(-3px, -3px);
+  transition: .5s;
+  border: 1px solid black;
 }
 
 .cardServicos img {
@@ -280,10 +291,18 @@ main {
   border-radius: 0;
 }
 
+#cardContainer .image-container img:hover {
+  border: none;
+}
+
 .cardProjetos img {
   width: 500px;
   height: 250px;
   border-radius: 15px;
+}
+
+.cardProjetos figure img:hover {
+  border: 1px solid darkgray;
 }
 
 .cardProjetos h3 {
